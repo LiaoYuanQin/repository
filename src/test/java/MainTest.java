@@ -14,6 +14,7 @@ public class MainTest {
         UseFunctionService useFunctionService = context.getBean(UseFunctionService.class);
         //3.调用bean的方法
         System.out.println(useFunctionService.sayHello("world"));
+        System.out.println("9999999999999");
         context.close();
     }
 
